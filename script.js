@@ -7,7 +7,7 @@
    -------------------------------------------------- */
 const works = [
   {
-    title: "Luxe Co.",
+    title: "The Cost of Convenience",
     category: "Research",
     heroImg: "/35.png",
   },
