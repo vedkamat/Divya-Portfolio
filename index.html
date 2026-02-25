@@ -1,0 +1,371 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Divya â€” Designer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a class="nav__logo" href="#" onclick="showHome()">Portfolio.</a>
+    <ul class="nav__links">
+      <li><a href="#works" onclick="goToWorks(event)">Works</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav__menu-btn" id="menuBtn" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#" onclick="showHome(); toggleMenu()">Home</a>
+    <a href="#works" onclick="goToWorks(event); toggleMenu()">Works</a>
+    <a href="#about" onclick="toggleMenu()">About</a>
+    <a href="#contact" onclick="toggleMenu()">Contact</a>
+  </div>
+
+  <!-- =================== HOME VIEW =================== -->
+  <div id="homeView">
+
+    <!-- LANDING -->
+    <section class="landing" id="home">
+      <div class="landing__content">
+        <p class="landing__eyebrow">Divya Kamat</p>
+        <h1 class="landing__title">Crafting experiences<br /><em>through design.</em></h1>
+        <p class="landing__sub">I translate insights into seamless interactions that enhance usability, clarity, and engagement.</p>
+        <div class="landing__cta">
+          <a class="btn btn--primary" href="#works" onclick="goToWorks(event)">View My Work</a>
+          <a class="btn btn--ghost" href="#contact">Get in Touch</a>
+        </div>
+      </div>
+      <div class="landing__visual">
+        <div class="landing__img-wrap">
+          <img src="/divya pic.jpeg" alt="Designer at work" />
+          <div class="landing__tag">Available for projects</div>
+        </div>
+        <div class="landing__float landing__float--3">Research</div>
+        <div class="landing__float landing__float--2">Graphic Design</div>
+        <div class="landing__float landing__float--1">UI / UX</div>
+      </div>
+      <div class="landing__scroll-hint">
+        <span>Scroll</span>
+        <div class="landing__scroll-line"></div>
+      </div>
+    </section>
+    <!-- MARQUEE -->
+    <div class="marquee">
+      <div class="marquee__inner">
+        <div class="marquee__track">
+          <span>Brand Identity</span><span class="marquee__dot">✦</span>
+          <span>Editorial Design</span><span class="marquee__dot">✦</span>
+          <span>Packaging</span><span class="marquee__dot">✦</span>
+          <span>Web Design</span><span class="marquee__dot">✦</span>
+          <span>Illustration</span><span class="marquee__dot">✦</span>
+          <span>Motion</span><span class="marquee__dot">✦</span>
+        </div>
+         <div class="marquee__track">
+          <span>Brand Identity</span><span class="marquee__dot">✦</span>
+          <span>Editorial Design</span><span class="marquee__dot">✦</span>
+          <span>Packaging</span><span class="marquee__dot">✦</span>
+          <span>Web Design</span><span class="marquee__dot">✦</span>
+          <span>Illustration</span><span class="marquee__dot">✦</span>
+          <span>Motion</span><span class="marquee__dot">✦</span>
+        </div>
+         <div class="marquee__track">
+          <span>Brand Identity</span><span class="marquee__dot">✦</span>
+          <span>Editorial Design</span><span class="marquee__dot">✦</span>
+          <span>Packaging</span><span class="marquee__dot">✦</span>
+          <span>Web Design</span><span class="marquee__dot">✦</span>
+          <span>Illustration</span><span class="marquee__dot">✦</span>
+          <span>Motion</span><span class="marquee__dot">✦</span>
+        </div>   <div class="marquee__track">
+          <span>Brand Identity</span><span class="marquee__dot">✦</span>
+          <span>Editorial Design</span><span class="marquee__dot">✦</span>
+          <span>Packaging</span><span class="marquee__dot">✦</span>
+          <span>Web Design</span><span class="marquee__dot">✦</span>
+          <span>Illustration</span><span class="marquee__dot">✦</span>
+          <span>Motion</span><span class="marquee__dot">✦</span>
+        </div>   <div class="marquee__track">
+          <span>Brand Identity</span><span class="marquee__dot">✦</span>
+          <span>Editorial Design</span><span class="marquee__dot">✦</span>
+          <span>Packaging</span><span class="marquee__dot">✦</span>
+          <span>Web Design</span><span class="marquee__dot">✦</span>
+          <span>Illustration</span><span class="marquee__dot">✦</span>
+          <span>Motion</span><span class="marquee__dot">✦</span>
+        </div>   <div class="marquee__track">
+          <span>Brand Identity</span><span class="marquee__dot">✦</span>
+          <span>Editorial Design</span><span class="marquee__dot">✦</span>
+          <span>Packaging</span><span class="marquee__dot">✦</span>
+          <span>Web Design</span><span class="marquee__dot">✦</span>
+          <span>Illustration</span><span class="marquee__dot">✦</span>
+          <span>Motion</span><span class="marquee__dot">✦</span>
+        </div> 
+          <div class="marquee__track">
+          <span>Brand Identity</span><span class="marquee__dot">✦</span>
+          <span>Editorial Design</span><span class="marquee__dot">✦</span>
+          <span>Packaging</span><span class="marquee__dot">✦</span>
+          <span>Web Design</span><span class="marquee__dot">✦</span>
+          <span>Illustration</span><span class="marquee__dot">✦</span>
+          <span>Motion</span><span class="marquee__dot">✦</span>
+        </div> 
+          <div class="marquee__track">
+          <span>Brand Identity</span><span class="marquee__dot">✦</span>
+          <span>Editorial Design</span><span class="marquee__dot">✦</span>
+          <span>Packaging</span><span class="marquee__dot">✦</span>
+          <span>Web Design</span><span class="marquee__dot">✦</span>
+          <span>Illustration</span><span class="marquee__dot">✦</span>
+          <span>Motion</span><span class="marquee__dot">✦</span>
+        </div>
+        
+        <div class="marquee__track" aria-hidden="true">
+          <span>Brand Identity</span><span class="marquee__dot">✦</span>
+          <span>Editorial Design</span><span class="marquee__dot">✦</span>
+          <span>Packaging</span><span class="marquee__dot">✦</span>
+          <span>Web Design</span><span class="marquee__dot">✦</span>
+          <span>Illustration</span><span class="marquee__dot">✦</span>
+          <span>Motion</span><span class="marquee__dot">✦</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- WORKS SECTION -->
+    <section class="works" id="works">
+      <div class="section-header">
+        <p class="section-label">Selected Works</p>
+        <h2 class="section-title">My Projects</h2>
+      </div>
+
+      <!-- WORKS FILTER -->
+      <div class="works__filter" id="worksFilter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="Research">Research</button>
+        <button class="filter-btn" data-filter="graphic_design">Graphic Design</button>
+        <button class="filter-btn" data-filter="ui/ux">UI/UX</button>
+      </div>
+
+      <!-- WORKS GRID -->
+      <div class="works__grid" id="worksGrid">
+
+        <div class="work-card" data-category="Research" data-id="0" onclick="openWork(0)">
+          <div class="work-card__img-wrap">
+            <img src="/Cost_of_convenience_cover.png" alt="The Cost of Convenience" />
+            <div class="work-card__overlay">
+              <span>View Project â†’</span>
+            </div>
+          </div>
+          <div class="work-card__info">
+            <span class="work-card__tag">Research</span>
+            <h3 class="work-card__title">The Cost of Convenience</h3>
+            <p class="work-card__sub">System Thinking</p>
+          </div>
+        </div>
+
+        <div class="work-card work-card--tall" data-category="Research" data-id="1" onclick="openWork(1)">
+          <div class="work-card__img-wrap">
+            <img src="/Ethnographic Research cover.png" alt="Ethnographic Research on Sustainable Indian Fashion" />
+            <div class="work-card__overlay">
+              <span>View Project â†’</span>
+            </div>
+          </div>
+          <div class="work-card__info">
+            <span class="work-card__tag">Research</span>
+            <h3 class="work-card__title">Ethnographic Research on Sustainable Indian Fashion</h3>
+            <p class="work-card__sub">Ethnographic Research</p>
+          </div>
+        </div>
+
+        <div class="work-card" data-category="graphic_design" data-id="2" onclick="openWork(2)">
+          <div class="work-card__img-wrap">
+            <img src="/kadak/1.png" alt="Kadak Chai Packaging" />
+            <div class="work-card__overlay">
+              <span>View Project â†’</span>
+            </div>
+          </div>
+          <div class="work-card__info">
+            <span class="work-card__tag">Graphic Design</span>
+            <h3 class="work-card__title">Kadak Chai</h3>
+            <p class="work-card__sub">Product Packaging </p>
+          </div>
+        </div>
+
+        <div class="work-card" data-category="ui/ux" data-id="3" onclick="openWork(3)">
+          <div class="work-card__img-wrap">
+            <img src="/art studio website/1.png" alt="Art Studio Website Design" />
+            <div class="work-card__overlay">
+              <span>View Project â†’</span>
+            </div>
+          </div>
+          <div class="work-card__info">
+            <span class="work-card__tag">UI/UX</span>
+            <h3 class="work-card__title">Art Studio Website design</h3>
+            <p class="work-card__sub">Website Design &amp; Prototype</p>
+          </div>
+        </div>
+
+        <div class="work-card" data-category="ui/ux" data-id="4" onclick="openWork(4)">
+          <div class="work-card__img-wrap">
+            <img src="/bakery/1.png" alt="Bakery Website Design" />
+            <div class="work-card__overlay">
+              <span>View Project â†’</span>
+            </div>
+          </div>
+          <div class="work-card__info">
+            <span class="work-card__tag">UI/UX</span>
+            <h3 class="work-card__title">Bakery Website</h3>
+            <p class="work-card__sub">Website Design &amp; Prototype</p>
+          </div>
+        </div>
+
+        <div class="work-card" data-category="ui/ux" data-id="5" onclick="openWork(5)">
+          <div class="work-card__img-wrap">
+            <img src="/bms/28.png" alt="BookMyshow Redesign UI" />
+            <div class="work-card__overlay">
+              <span>View Project â†’</span>
+            </div>
+          </div>
+          <div class="work-card__info">
+            <span class="work-card__tag">UI/UX</span>
+            <h3 class="work-card__title">BookMyshow Redesign</h3>
+            <p class="work-card__sub">Mobile UI / UX Design</p>
+          </div>
+        </div>
+
+        <div class="work-card work-card--end-half" data-category="graphic_design" data-id="6" onclick="openWork(6)">
+          <div class="work-card__img-wrap">
+            <img src="/gd/1.png" alt="Graphic Design Explorations" />
+            <div class="work-card__overlay">
+              <span>View Project â†’</span>
+            </div>
+          </div>
+          <div class="work-card__info">
+            <span class="work-card__tag">Graphic Design</span>
+            <h3 class="work-card__title">Graphic Design Explorations</h3>
+            <p class="work-card__sub">Cover Exploration</p>
+          </div>
+        </div>
+
+        <div class="work-card work-card--end-half" data-category="ui/ux" data-id="7" onclick="openWork(7)">
+          <div class="work-card__img-wrap">
+            <img src="/tactic/20.png" alt="Tactic: The Event planning app design" />
+            <div class="work-card__overlay">
+              <span>View Project â†’</span>
+            </div>
+          </div>
+          <div class="work-card__info">
+            <span class="work-card__tag">UI/UX</span>
+            <h3 class="work-card__title">Tactic: The Event planning app design</h3>
+            <p class="work-card__sub">Mobile App UI / UX Design</p>
+          </div>
+        </div>
+
+        
+
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+      <div class="about__img-col">
+        <div class="about__img-wrap">
+          <img src="/divya pic.jpeg" alt="Divya" />
+        </div>
+        <!-- <div class="about__stats">
+          <div class="stat"><span class="stat__num">7+</span><span class="stat__label">Years of Experience</span></div>
+          <div class="stat"><span class="stat__num">40+</span><span class="stat__label">Projects Delivered</span></div>
+          <div class="stat"><span class="stat__num">18</span><span class="stat__label">Happy Clients</span></div>
+        </div> -->
+      </div>
+      <div class="about__text-col">
+        <p class="section-label">About Me</p>
+        <h2 class="section-title">Design is how I<br /><em>think out loud.</em></h2>
+        <p class="about__body">Hi, I'm Divya â€” a designer driven by curiosity, empathy, and structured thinking. I enjoy transforming complex ideas into intuitive, meaningful digital experiences that feel seamless and purposeful. My approach combines user research, interaction logic, and visual clarity to create solutions that balance usability with emotional impact.</p>
+        <p class="about__body">I believe good design is not just about how something looks, but how it works, flows, and connects with people. Through continuous learning and experimentation, I aim to craft thoughtful experiences that are both functional and engaging.</p>
+        <div class="about__skills">
+          <span>Figma</span><span>Illustrator</span><span>InDesign</span>
+          <span>Photoshop</span><span>After Effects</span><span>Procreate</span>
+        </div>
+        <a class="btn btn--primary" href="#contact">Let's Work Together</a>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+      <div class="contact__inner">
+        <p class="section-label">Contact</p>
+        <h2 class="contact__title">Have a project in mind?<br /><em>Let's create something together.</em></h2>
+        <a class="contact__email" href="https://mail.google.com/mail/?view=cm&fs=1&to=divya.kam04@gmail.com&su=Project%20Inquiry" target="_blank" rel="noopener noreferrer">divya.kam04@gmail.com</a>
+        <div class="contact__links">
+          <a href="https://www.instagram.com/_divyaart?igsh=MTltbDhlZDN0Z3hnNA==">Instagram</a>
+          <a href="https://www.behance.net/divya_kamat">Behance</a>
+          <a href="https://www.linkedin.com/in/divya-kamat-/">LinkedIn</a>
+         
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>Â© 2026 Divya. Designed &amp; built with care.</p>
+      <p>India</p>
+    </footer>
+
+  </div><!-- /homeView -->
+
+  <!-- =================== WORK DETAIL VIEW =================== -->
+  <div id="workView" class="work-view hidden">
+
+    <div class="work-view__header">
+      <button class="back-btn" onclick="closeWork()">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+        Back to Works
+      </button>
+    </div>
+
+    <div class="work-view__hero" id="workHero">
+      <div class="work-view__hero-text">
+        <span class="work-view__category" id="workCategory"></span>
+        <h1 class="work-view__title" id="workTitle"></h1>
+        <p class="work-view__tagline" id="workTagline"></p>
+        <div class="work-view__meta" id="workMeta"></div>
+      </div>
+      <div class="work-view__hero-img">
+        <img id="workHeroImg" src="" alt="" />
+      </div>
+    </div>
+
+    <div class="work-view__body">
+      <div class="work-view__description">
+        <h2>About the Project</h2>
+        <p id="workDesc"></p>
+        <p id="workDesc2"></p>
+      </div>
+
+      <div class="work-view__gallery" id="workGallery">
+        <!-- images inserted by JS -->
+      </div>
+
+      <div class="work-view__process">
+        <h2>Process &amp; Outcome</h2>
+        <p id="workProcess"></p>
+      </div>
+
+      <div class="work-view__nav">
+        <button onclick="prevWork()" id="prevBtn">â† Previous</button>
+        <button onclick="nextWork()" id="nextBtn">Next â†’</button>
+      </div>
+    </div>
+
+  </div><!-- /workView -->
+
+  <script src="script.js"></script>
+</body>
+</html>
+
